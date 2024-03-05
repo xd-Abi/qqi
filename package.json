@@ -1,0 +1,25 @@
+{
+  "name": "@qqi/terminal",
+  "version": "1.0.0",
+  "description": "Terminal based Chat with PDF",
+  "main": "src/main.ts",
+  "homepage": "https://github.com/xd-Abi/qqi#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xd-Abi/qqi.git"
+  },
+  "author": "xd-Abi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xd-Abi/qqi/issues"
+  },
+  "scripts": {
+    "start": "dotenv -- ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "dotenv-cli": "^7.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
